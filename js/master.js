@@ -201,10 +201,10 @@ jQuery(function ($) {
 		function testimonialSlider() {
 			$(".testimonial").slick({
 				dots: true,
-				infinite: true,
-				centerMode: true,
+				loop: false,
+				infinite: false,
 				slidesToShow: 3,
-				slidesToScroll: 3,
+				slidesToScroll: 1,
 				arrows: false,
 				centerPadding: '0',
 				responsive: [
